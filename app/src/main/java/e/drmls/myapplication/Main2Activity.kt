@@ -16,8 +16,12 @@ class Main2Activity : AppCompatActivity() {
         button.setOnClickListener {
             val intent = Intent(this,Main3Activity::class.java)
             startActivity(intent)
+
         }
         val myBtn = findViewById<Button>(R.id.myBtn)
-        val myTxt = findViewById<TextView>(R.id.myTextView)
+
+        myBtn.setOnClickListener {
+            val intent = Intent(this,Main4Activity::class.java)
+            startActivity(intent)
     }
-}
+}}

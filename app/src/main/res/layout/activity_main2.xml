@@ -5,7 +5,7 @@
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/ecology"
+    android:background="@drawable/planet"
     android:orientation="vertical"
     android:minHeight="181dp"
     tools:context=".MainActivity">

@@ -3,7 +3,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/black">
+    android:background="@drawable/white">
 
     <TextView
         android:layout_width="wrap_content"
@@ -11,8 +11,8 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="103dp"
-        android:text="Project Creators"
-        android:textColor='#F00'
+        android:text="Project Creators:"
+        android:textColor='#F000'
         android:textSize="30sp" />
 
 </RelativeLayout>
